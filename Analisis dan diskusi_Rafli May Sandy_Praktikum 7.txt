@@ -1,0 +1,9 @@
+Analisis:
+Dalam percobaan pada minggu ke-7 ini, saya melakukan percobaan mendeteksi geometri dari rel kereta dengan menggunakan metode canny edge detection dan stereo vision. Dalam percobaan ini saya membutuhkan duah buah web cam USB yang dipasang secara berhadapan. Dalam proses pembuatan, program dibagi menjadi 3 program yang mana pada program pertama untuk mengetahui aoakah kedua kamera berjalan dengan lancar atau tidak. Lalu pada program kedua untuk menerapkan canny edge detection ke gambar stereo. Pada program yang ketiga digunakan untuk mendeteksi estimasi kedalaman dan geometri rel. Output dari program ini berupa 3 frame yang terdiri dari frame utama yang menampilkan objek rel , lalu pada frame kedua berupa hasil canny edge detection dari rel, lalu yang frame ketiga menghasilkan peta kedalaman rel yang berisi lebar rel, Panjang rel, kemiringan rel, dan deformasi ballast.  Untuk hasil dari geometri rel dapat dilihat ditabel berikut ini:
+
+No Track	Lebar Rel (cm)	Panjang Rel (cm)	Kemiringan Rel (°)	Identifikasi Deformasi Ballast (cm)
+    1	              68,65	                  6,7   	                 -22,22	                          22,590
+    2 	              78,61	                 8,52                          -2,86	                          23,309
+    3	              79,56	                31,26	                  26,8	                          23,649
+    4	              39,71	                 7,25	                          12,74	                          23,770
+
